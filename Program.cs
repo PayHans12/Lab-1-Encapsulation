@@ -7,7 +7,13 @@ Console.WriteLine($"Current Balance: {phil.Balance}\n");
 
 phil.Deposit((decimal)100.00);
 
+phil.Deposit((decimal)-100.00);
+
 phil.Withdraw((decimal)200.00);
 
 phil.Withdraw((decimal)1000.00);
+
+phil.Withdraw((decimal)-1000.00);
+
+
 

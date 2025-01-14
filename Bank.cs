@@ -27,7 +27,8 @@ public class BankAccount
         }
         else
         {
-            Console.WriteLine("Error: that is an invalid amount.");
+            Console.WriteLine($"Depositing: ${amount}");
+            Console.WriteLine("Error: that is an invalid amount.\n");
         }
     }
 

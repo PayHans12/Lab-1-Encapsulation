@@ -43,11 +43,13 @@ public class BankAccount
         {
             if (amount > balance)
             {
-                Console.WriteLine("Error: Insuficient Funds");
+                Console.WriteLine($"Withdrawing: ${amount}");
+                Console.WriteLine("Error: Insuficient Funds\n");
             }
             else
             {
-                Console.WriteLine("Invalid amount");
+                Console.WriteLine($"Withdrawing: ${amount}");
+                Console.WriteLine("Invalid amount\n");
             }
         }
     }
